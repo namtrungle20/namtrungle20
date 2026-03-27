@@ -1,0 +1,16 @@
+name: Generate Pacman Graph
+on:
+  schedule:
+    - cron: "0 */12 * * *" 
+  workflow_dispatch: 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: pacman-graph.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year

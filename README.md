@@ -56,8 +56,8 @@
 
 <br clear="both">
 
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&text=I%20AM%20CHOSEN%20ONE&fontSize=70&fontColor=E8E0D0&fontAlign=50&fontAlignY=50&stroke=-&animation=twinkling&descSize=20&descAlign=50&descAlignY=50&textBg=false&color=gradient"  />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/namtrungle20/namtrungle20/main/pacman-graph.svg" alt="Pacman Graph">
 </div>
 
 ###
